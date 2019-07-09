@@ -1,7 +1,7 @@
 (function(){
 	var s = document.createElement('script');
 	s.setAttribute('defer', '');
-	s.setAttribute('src', "/push-wrap.js");
+	s.setAttribute('src', "js/push-wrap.js");
 	s.onload = init;
 	document.body.appendChild(s);
 
