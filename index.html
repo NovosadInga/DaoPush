@@ -1,11 +1,357 @@
 <!DOCTYPE html>
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>DaoPush</title>
-</head>
-<body>
-	<a href="captcha-popup/index.html">captcha-popup</a>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="Tl2g39C_8z6i6mKO4_ayZbPSb4-E4LKAxdjIOYKzO18YZemWmN6_VPLeBvipwYcLwLMMzd2K4sKonPtu5ttdFw==">
+<title>Home - Main - Subscribe for future</title>
+<link type="image/x-icon" href="https://daopush.com/media/manage/images/red-outer/favicon.ico?b=7" rel="icon">
+<link type="image/png" href="https://daopush.com/media/manage/images/logo-square.png?b=7" rel="apple-touch-icon">
+<link href="slick/slick.css" rel="stylesheet">
+<link href="slick/slick-theme.css" rel="stylesheet">
+<link href="css/main.css?v=07052019" rel="stylesheet">
+<link href="./Home-en_files/helper.css" rel="stylesheet"></head>
+
+<body class="en frontpage">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+<symbol id="lock" viewBox="0 0 13 18">
+<defs>
+<path id="lock-a" d="M0 0h13v18H0z"></path>
+</defs>
+<clippath id="lock-b">
+<use xlink:href="#a" overflow="visible"></use>
+</clippath>
+<path d="M10.77 8A1.23 1.23 0 0 1 12 9.229v6.542A1.23 1.23 0 0 1 10.77 17H2.23a1.231 1.231 0 0 1-1.23-1.229V9.229A1.23 1.23 0 0 1 2.23 8h8.541m0-1H2.23a2.23 2.23 0 0 0-2.23 2.229v6.542A2.23 2.23 0 0 0 2.23 18h8.541A2.23 2.23 0 0 0 13 15.771V9.229A2.23 2.23 0 0 0 10.77 7" clip-path="url(#b)"></path>
+<path d="M6.5 1C8.43 1 10 2.57 10 4.5V7H3V4.5C3 2.57 4.57 1 6.5 1m0-1A4.5 4.5 0 0 0 2 4.5V8h9V4.5A4.5 4.5 0 0 0 6.5 0" clip-path="url(#b)"></path>
+<path d="M6.5 14.5a1 1 0 0 1-1-1v-2a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1z" clip-path="url(#b)" fill="none" stroke="#8f8f8f" stroke-miterlimit="10"></path>
+</symbol>
+<symbol id="logo" viewBox="0 0 348.86133 88.83234">
+<path d="M222.066 7.266h-24.042v74.065h6.578v-29.39h17.464c1.544 0 2.815-.496 3.81-1.49.992-.994 1.49-2.263 1.49-3.81V12.52c0-1.546-.498-2.808-1.49-3.786-.995-.978-2.266-1.467-3.81-1.467zm-1.278 38.807h-16.186V13.087h16.186v32.986zM261.914 75.51h-17.559V7.266h-6.578v68.812c0 1.546.49 2.808 1.468 3.786.977.979 2.239 1.467 3.785 1.467h20.161c1.545 0 2.816-.488 3.81-1.467.993-.978 1.49-2.24 1.49-3.786V7.266h-6.577V75.51zM302.499 7.266h-18.646c-1.546 0-2.815.49-3.81 1.467-.993.978-1.49 2.24-1.49 3.786v15.002c0 2.052.71 3.928 2.13 5.632l20.445 24.705V75.51H285.13V57.29h-6.578v18.788c0 1.546.497 2.808 1.49 3.786.995.979 2.264 1.467 3.81 1.467h18.646c1.546 0 2.8-.488 3.762-1.467.963-.978 1.445-2.24 1.445-3.786V58.946c0-2.05-.68-3.896-2.035-5.537l-20.54-24.704V13.087h15.997v16.658h6.578V12.52c0-1.546-.482-2.808-1.445-3.786s-2.216-1.467-3.762-1.467zM342.284 7.266v32.56H324.44V7.266h-6.577v74.065h6.577v-35.59h17.843v35.59h6.577V7.266zM151.403 29.18h-22.096v30.493h22.096V32.298zM32.686 29.152v30.577c4.07 0 7.459.457 10.359-1.323 2.899-1.78 4.836-4.006 5.811-6.682.977-2.675 1.64-10.236 1.272-22.572H32.686z"></path>
+<path d="M172.524 0H8.037A8.037 8.037 0 0 0 0 8.037v72.759a8.037 8.037 0 0 0 8.037 8.036h164.487a8.037 8.037 0 0 0 8.037-8.036V8.036A8.037 8.037 0 0 0 172.524 0zM60.963 51.614c-.898 3.886-3.506 8.849-6.63 12.368s-6.564 5.687-10.32 6.504c-3.756.817-12.382.884-25.918.884l.078-11.64h7.514l-4.429-2.016V29.206h-3.795l1.897-11.743h34.874l7.593.04v22.89c.065 4.305-.082 7.836-.864 11.22zm26.7 19.743l-7.817-7.395L90.311 51.93l7.342 7.804-9.99 11.623zm17.277 3.4l-.824-2.2-1.122-2.994-12.552-33.505-16.02 38.726-10.8-4.468 14.594-35.28 2.431-5.894-10.226-.006h-1.895l1.895-11.635h15.014l.932-2.224 3.304-8.01.14.093 10.1 5.809L98.12 17.5h12.87l-1.895 11.658-8.756-.005 15.548 41.503-10.946 4.1zm58.143-43.637v35.686c-.007.015-.007.037-.015.052-.275 1.211-.861 2.17-1.776 2.883-1.263 1.003-3.135 1.545-5.617 1.62h-30.217c-.46.014-.892.014-1.315-.008-1.635-.104-2.972-.542-4.012-1.33-1.293-.973-2.118-2.481-2.474-4.525V19.396l1.79-.29 9.86-1.605v5.186l2.362-5.186h9.75V17.5h13.825c.392-.02.77-.014 1.136.001h.217c1.642.104 2.98.55 4.012 1.345.018.02.034.047.052.069 1.248.968 2.042 2.452 2.384 4.447v4.29c.007.134.018.256.023.392.037.959.037 1.984.015 3.076z"></path>
+</symbol>
+</svg>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8JPR3D" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="loader" style="display: none;">
+<div class="container">
+<div class="loader__block"><span class="loader__item"></span></div>
+</div>
+</div>
+
+
+<section class="desktop-nav">
+<div class="container">
+
+<a class="logo js-menu" href="https://daopush.com/en#start"><svg class="icon logo"><use xlink:href="#logo"></use></svg></a>
+<nav class="main-nav">
+<ul class="nav"><li class="nav__item"><a class="js-menu" href="https://daopush.com/en#start">About us</a></li>
+<li class="nav__item"><a class="js-menu" href="https://daopush.com/en#ofr">Benefits</a></li>
+<li class="nav__item"><a class="js-menu" href="https://daopush.com/en#push">Push technology</a></li>
+<li class="nav__item"><a class="js-menu" href="https://daopush.com/en#contacts">Contacts</a></li>
+<li class="nav__item"><a class="js-menu" href="https://daopush.com/en/manage/main/page?pageId=faq">FAQ</a></li></ul>        </nav>
+
+<div class="auth">
+<a class="auth__link auth__link_white btn btn_menu" href="https://daopush.com/en/manage/main/login">Sign in</a>            <a class="auth__link auth__link_white btn btn_menu" href="https://daopush.com/en/manage/main/register">Registration</a>        </div>
+
+<div class="lang-switcher">
+
+<a class="lang-switcher__link active" href="https://daopush.com/en">En</a>    <a class="lang-switcher__link" href="https://daopush.com/ru">Ru</a>        </div>
+
+<button type="button" class="mobile__burger js-mobile-btn">
+<span class="mobile__btn"></span>
+</button>
+</div>
+</section>
+
+
+<section class="mobile-nav">
+<div class="container">
+<div class="mobile-nav__main">
+<nav class="mobile-nav__navigation">
+<ul class="mobile-nav__nav"><li class="mobile-nav__item"><a class="js-menu" href="https://daopush.com/en#start">About us</a></li>
+<li class="mobile-nav__item"><a class="js-menu" href="https://daopush.com/en#ofr">Benefits</a></li>
+<li class="mobile-nav__item"><a class="js-menu" href="https://daopush.com/en#push">Push technology</a></li>
+<li class="mobile-nav__item"><a class="js-menu" href="https://daopush.com/en#contacts">Contacts</a></li>
+<li class="mobile-nav__item"><a class="js-menu" href="https://daopush.com/en/manage/main/page?pageId=faq">FAQ</a></li></ul>            </nav>
+<div class="mobile-nav__lang-switcher">
+
+<a class="lang-switcher__link active" href="https://daopush.com/en">En</a>    <a class="lang-switcher__link" href="https://daopush.com/ru">Ru</a>            </div>
+</div>
+<div class="mobile-nav__auth">
+<a class="btn btn_default btn_auth btn_auth-white btn_auth-owhite" href="https://daopush.com/en/manage/main/login">Sign in</a>            <a class="btn btn_default btn_auth btn_auth-orange btn_auth-owhite" href="https://daopush.com/en/manage/main/register">Registration</a>        </div>
+</div>
+</section>
+
+
+<header id="start" class="header">
+<div class="orange">
+<div class="globe js-globe">
+<ul class="globe-list js-list"></ul>
+<div class="globe-bg"></div><canvas class="globe-canvas js-canvas"></canvas>
+</div>
+</div>
+<div class="header__container">
+<h1 class="header__title">Unique conversion and monetize push notifications platform</h1>
+<div class="header__slider slider">
+<div class="js-slick-header">
+<div class="slider__item">
+<h3 class="slider__header"># Arbitrage</h3>
+<p class="header__text">High-tech platform for analyzing traffic with top lands</p>
+</div>
+<div class="slider__item">
+<h3 class="slider__header"># Webmasters</h3>
+<p class="header__text">Constantly growing income with minimal holds</p>
+</div>
+<div class="slider__item">
+<h3 class="slider__header"># For advertisers</h3>
+<p class="header__text">We offer highly convertible traffic with its own subscription base</p>
+</div>
+</div>
+<div class="header__auth">
+<a class="btn btn_default btn_auth btn_auth-orange" href="https://daopush.com/en/manage/main/login">Sign in</a>                <a class="btn btn_default btn_auth btn_auth-white" href="https://daopush.com/en/manage/main/register">Registration</a>            </div>
+</div>
+</div>
+<div class="gray">
+<div class="container">
+<div class="above">
+<div class="above__item js-above-item">
+<div class="above__back worldmap js-above-before-bg" style="display: block;"></div>
+<div class="above__text">
+More than&nbsp;
+<span class="above__val">
+<span class="js-above-val" data-max="174">174</span>&nbsp;countries                        </span>
+from around the world                    </div>
+</div>
+<div class="above__item js-above-item">
+<div class="above__back click js-above-before-bg" style="display: block;"></div>
+<div class="above__text">
+Over&nbsp;
+<span class="above__val"><span class="js-above-val" data-max="15 000 000">15000000</span></span>
+monthly clicks                    </div>
+</div>
+<div class="above__item js-above-item">
+<div class="above__back dollar js-above-before-bg" style="display: block;"></div>
+<div class="above__text">Over&nbsp;<span class="above__val"><span class="js-above-val" data-max="200 000">200 000</span>&nbsp;$</span>
+partner income per month                    </div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<section id="ofr" class="ofr">
+<div class="container">
+<h2 class="title">We offer the best conditions</h2>
+<div class="ofr__toggle">
+<div class="toggle__wrapper">
+<input type="checkbox" id="toggle" class="toggle__input">
+<label for="toggle" class="toggle"><span class="toggle__handler"></span></label>
+</div>
+</div>
+<div class="ofr__main">
+<div class="ofr__slider-back">
+<div class="ofr__slider-main">
+<div class="ofr__slider-notebook js-notebook-slider">
+<div class="ofr__slider-item"><img src="img/monitor0.png" alt="DAO PUSH screen"></div>
+<div class="ofr__slider-item"><img src="img/monitor1.png" alt="DAO PUSH screen"></div>
+<div class="ofr__slider-item"><img src="img/monitor2.png" alt="DAO PUSH screen"></div>
+</div>
+</div>
+</div>
+<div id="webmasters" class="ofr__slider-container active">
+<div class="ofr__slider js-webmasters js-slider-ofr">
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Traffic monetization</h3>
+<p class="ofr__text">Convert live traffic from around the world in a steady income</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">High income</h3>
+<p class="ofr__text">Fresh ad format stimulates high response</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Quick payouts</h3>
+<p class="ofr__text">We send you payments on request starting from 10 dollars</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Detailed statistics</h3>
+<p class="ofr__text">Simple functionality shows statistics in real time</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Earnings without a site</h3>
+<p class="ofr__text">You will need a minimum of creativity to run ads</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Easy integration</h3>
+<p class="ofr__text">Connect and configure your site in the system in a few minutes</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Competent support</h3>
+<p class="ofr__text">Personal approach and competent answers all questions 24/7</p>
+</div>
+</div>
+</div>
+<div id="prs" class="ofr__slider-container">
+<div class="ofr__slider js-prs js-slider-ofr">
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Antifraud system</h3>
+<p class="ofr__text">We do not allow markups - only live, high-quality traffic</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Detailed targeting</h3>
+<p class="ofr__text">We select the audience to show any unique parameters</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Any budget</h3>
+<p class="ofr__text">Use our system with any budget from $ 50</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Unique format</h3>
+<p class="ofr__text">Maximum visibility of notifications and minimum ignore</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">High CTR</h3>
+<p class="ofr__text">Compared to regular ad formats</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Gentle mode</h3>
+<p class="ofr__text">We do not disturb users with frequent notifications</p>
+</div>
+<div class="ofr__item">
+<h3 class="ofr__subtitle">Own base of subscriptions</h3>
+<p class="ofr__text">We have our own database of loyal subscribers on push notifications</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="cta">
+<div class="container">
+<div class="cta__back">
+<div class="globe js-globe">
+<ul class="globe-list js-list"></ul>
+<div class="globe-bg"></div><canvas class="globe-canvas js-canvas"></canvas>
+</div>
+</div>
+<div class="cta__block">
+<a class="btn btn_default btn_auth btn_auth-white" href="https://daopush.com/en/manage/main/register">Registration</a>        </div>
+</div>
+</section>
+<section id="push" class="push">
+<div class="container">
+<div class="push__main">
+<div class="push__view js-notify-block">
+<div class="push__notebook">
+<div class="push__notify-area">
+<div class="push__notify">
+<div class="push__notify-notebook js-notify-item"></div>
+</div>
+</div>
+</div>
+<div class="push__phone">
+<div class="push__phone-screen">
+<div class="push__notify">
+<div class="push__notify-phone push__notify-phone_big js-notify-item"></div>
+<div class="push__notify-phone js-notify-item"></div>
+<div class="push__notify-phone js-notify-item"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="push__how">
+<h2 class="title push__title">How does Push-notifications work </h2>
+<div class="push__text">Popup notifications appear on the screen of the user's PC or smartphone</div>
+<div class="push__action" style="visibility: hidden;">
+<button type="button" class="btn btn_default btn_action">Push</button>
+</div>
+</div>
+</div>
+<div class="push__browsers browsers">
+<div class="browsers__item yandex js-browser"><span>web/mob</span></div>
+<div class="browsers__item firefox js-browser"><span>web/mob</span></div>
+<div class="browsers__item chrome js-browser"><span>web/mob</span></div>
+</div>
+</div>
+</section>
+<section class="map">
+<div class="container">
+<div class="map__back map-wrapper"><img src="img/world-map.png" id="world-map" alt="DAO PUSH around the world">
+<div class="map-points-wrapper">
+<div class="load white animation-medium finland"></div>
+<div class="load white animation-medium europe-first"></div>
+<div class="load white animation-faster europe-second"></div>
+<div class="load white animation-medium west-coast"></div>
+<div class="load white animation-slower east-coast-first"></div>
+<div class="load white animation-faster east-coast-second"></div>
+<div class="load white animation-slower brasil"></div>
+<div class="load white animation-slower india"></div>
+<div class="load white animation-slower singapore"></div>
+<div class="load white animation-medium japan"></div>
+<div class="load white animation-medium australia"></div>
+<div class="load white animation-medium hongkong"></div>
+<div class="load white animation-medium chicago"></div>
+<div class="load white animation-slower iowa"></div>
+<div class="load white animation-faster quebec"></div>
+<div class="load white animation-medium seattle"></div>
+<div class="load white animation-slower wyoming"></div>
+<div class="load white animation-faster texas"></div>
+<div class="load white animation-medium london"></div>
+<div class="load white animation-faster germany"></div>
+<div class="load white animation-faster seoul"></div>
+<div class="load white animation-faster victoria"></div>
+</div>
+</div>
+<div class="map__header">
+<h2 class="title title_white">We are operating all over the world</h2>
+<div class="map__subtitle">There are subscribers from 174 countries. In our database</div>
+</div>
+<div class="map__cta">
+<a class="btn btn_default btn_auth btn_auth-white" href="https://daopush.com/en/manage/main/register">Registration</a>        </div>
+</div>
+</section>
+
+
+<footer id="contacts" class="foot">
+<div class="container">
+<div class="foot__social social">
+<div class="social__item social__item_skype"><a href="skype:live:anstasialebovski?add"></a></div>
+<div class="social__item social__item_telegram"><a href="https://t.me/DaoPush"></a></div>
+<div class="social__item social__item_email"><a href="mailto:admin@daopush.com"></a></div>
+</div>
+<div class="foot__policy policy">
+<a class="policy__link" href="https://daopush.com/en/manage/main/page?pageId=policy" target="_blank">Privacy policy</a>            <a class="policy__link" href="https://daopush.com/en/manage/main/page?pageId=terms-use" target="_blank">Terms of use</a>            <a class="policy__link" href="https://daopush.com/en/manage/main/page?pageId=terms" target="_blank">Terms of Service</a>        </div>
+<div class="foot__copy">All rights reserved DaoPush&nbsp;©&nbsp;2019</div>
+</div>
+</footer>
+
+<div class="modal modal__cookies">
+<div class="container">
+<div class="modal__main">
+<div class="modal__content">
+<p class="modal__text modal__text_cookies">
+<span class="modal__header">COOKIES INFORMATION</span>
+We use cookies to improve your experience with our website, including analytics and personalization.                    By clicking OK, or closing this banner, or browsing the website you agree to our use of cookies in accordance with our                    <a href="https://daopush.com/manage/main/privacy-policy" target="_blank">Privacy policy</a>.
+</p>
+<button type="button" id="accept-cookie" class="btn btn_default btn_action">OK</button>
+</div>
+</div>
+</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script src="slick/slick.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/main.js"></script>
+<script defer src='js/daopush-init.js'></script>
+
+
 </body>
 </html>
